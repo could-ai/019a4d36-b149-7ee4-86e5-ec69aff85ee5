@@ -136,7 +136,7 @@ class _OrderRegistrationScreenState extends State<OrderRegistrationScreen> {
                         return Card(
                           child: ListTile(
                             title: Text('${order.customerName} - ${order.itemName}'),
-                            subtitle: Text('Qty: ${order.quantity}, Price: $${order.price.toStringAsFixed(2)}, Total: $${order.total.toStringAsFixed(2)}'),
+                            subtitle: Text('Qty: ${order.quantity}, Price: \$${order.price.toStringAsFixed(2)}, Total: \$${order.total.toStringAsFixed(2)}'),
                           ),
                         );
                       },
